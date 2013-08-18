@@ -12,19 +12,35 @@
  *= require_tree .
  */
 
-img {
-	margin: 0;
-	padding: 0;
-}
 body {
-	margin: 0;
-	padding: 0;
-	float: left;
-	width: 1240px;
-	height: 1754px;
 	font-family: verdana, sans-serif;
 	font-size: 28px;
+	margin: 0px;
+	padding: 0px;
+    height: 100%;
 }
+
+.watermark {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;
+    /*background-image: url("/home/dev/Aptana Studio 3 Workspace/2011_09_logistics/public/images/bg_full.jpg");*/
+    background-origin: padding-box;
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: 1040px 1471px;
+    bottom: 0;
+    height: 1471px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    width: 1040px;
+    z-index: -1000;
+}	
+
+#watermark1 {
+    top: 0;
+}	
 h1, h2, p {
 	padding: 0;
 	margin: 0;
