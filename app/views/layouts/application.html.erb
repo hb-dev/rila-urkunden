@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Urkunden</title>
+		<%= wicked_pdf_stylesheet_link_tag "application" %>
+		<%= javascript_include_tag "application" %>
+		<%= csrf_meta_tags %>
+	</head>
+
+	<body>
+		<div class="textfield">
+			<%= yield %>
+		</div>	
+		<%= wicked_pdf_image_tag "urkunde_2013_leer.jpg" %>
+	</body>
+</html>
